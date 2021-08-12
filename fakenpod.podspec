@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name                 = 'fakenpod'
-  s.version              = '6.0.0'
+  s.version              = '7.0.0'
   s.summary              = 'try pod'
   s.homepage             = 'https://github.com/FaKenKoala/fakenpod'
   s.license              = { :type => 'MIT', :file => 'LICENSE' }

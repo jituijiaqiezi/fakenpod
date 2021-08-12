@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.source               = { :git => 'https://github.com/FaKenKoala/fakenpod.git', :tag => s.version }
   s.source_files          =  'CustomButton', 'CustomButton/**/*.{h,m}'
 
-  s.dependency 'flutter_libtdjson'
+  s.dependency 'flutter_libtdjson'#, '~> 0.2.0'
+  s.ios.deployment_target = '9.0'
+  
   
 
 end

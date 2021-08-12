@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name                 = 'fakenpod'
-  s.version              = '5.0.0'
+  s.version              = '6.0.0'
   s.summary              = 'try pod'
   s.homepage             = 'https://github.com/FaKenKoala/fakenpod'
   s.license              = { :type => 'MIT', :file => 'LICENSE' }
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'flutter_libtdjson'#, '~> 0.2.0'
   s.ios.deployment_target = '9.0'
+  s.ios.vendored_libraries = 'libtdjson.dylib'
   
   
 

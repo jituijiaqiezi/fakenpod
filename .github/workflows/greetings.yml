@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Good for you 🚗🚗🚗'
-        pr-message: 'Thanks for pull requst 🐂 🍺 👋'
+        issue-message: 'Good for you'
+        pr-message: 'Thanks for pull requst'
